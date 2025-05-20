@@ -1,0 +1,29 @@
+# NLP core
+spacy==3.5.3
+thinc==8.1.10
+blis==0.7.9
+numpy==1.23.5
+
+# Transformers & Deep Learning
+transformers==4.30.2
+torch==2.0.1
+torchvision==0.15.2 
+ftfy 
+regex 
+tqdm
+
+# CLIP (versión oficial desde GitHub), si nos descargamos el modelo con pip, necesitamos la versión 
+git+https://github.com/openai/CLIP.git
+
+# Machine Learning
+scikit-learn==1.2.2
+
+# Data handling & plotting
+pandas==1.5.3
+matplotlib==3.7.1
+plotly
+nbformat
+ipython
+
+# Jupyter support
+ipykernel==6.25.2
